@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-left{
+
+}
+.header{
+    background-color: #0F1012;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+}
+.authorlogo {
+    padding-top: 30px;
+}
+.authordesc {
+    /*margin-top: 40px;*/
+}
+.authordesc .authorname{
+    font-size: 85px;
+    margin: 0px;
+}
+.authordesc .lead{
+    font-size: 15px;
+}
+.authordesc .contact{
+    font-size: 15px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+}
+.tagged{
+    color: #F5AF3A;
+}
+.certified{
+    color: #F5AF3A;
+}
+
+@media screen and (max-width: 699px){
+    .authordesc .authorname{
+        font-size: 35px;
+    }
+    .authordesc .lead{
+        font-size: 12px;
+    }
+    .authordesc .contact{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 700px){
+    .authordesc .authorname{
+        font-size: 65px;
+    }
+    .authordesc .lead{
+        font-size: 20px;
+    }
+    .authordesc .contact{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1001px){
+
+}
